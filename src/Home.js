@@ -32,7 +32,7 @@ class Home extends Component {
 		return (
 			<div className="container2">
 				<div>
-					<h1 style={{ fontSize: "45px" }}>Video Meeting</h1>
+					<h1 style={{ fontSize: "45px" }}>Harsh Yadav</h1>
 					<p style={{ fontWeight: "200" }}>Video conference website that lets you stay in touch with all your friends.</p>
 				</div>
 
