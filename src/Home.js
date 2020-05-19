@@ -32,13 +32,14 @@ class Home extends Component {
 		return (
 			<div className="container2">
 				<div>
-					<h1 style={{ fontSize: "45px" }}>Harsh Yadav</h1>
+					<h1 style={{ fontSize: "45px" }}>Nation First</h1>
 					<p style={{ fontWeight: "200" }}>Video conference website that lets you stay in touch with all your friends.</p>
 				</div>
 
 				<div style={{
 					background: "white", width: "30%", height: "auto", padding: "20px", minWidth: "400px",
-					textAlign: "center", margin: "auto", marginTop: "100px"
+					textAlign: "center",
+			margin: "auto", marginTop: "100px"
 				}}>
 					<p style={{ margin: 0, fontWeight: "bold", paddingRight: "50px" }}>Start or join a meeting</p>
 					<Input placeholder="URL" onChange={e => this.handleChange(e)} />
